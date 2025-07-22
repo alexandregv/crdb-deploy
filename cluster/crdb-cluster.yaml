@@ -23,3 +23,4 @@ spec:
   tlsEnabled: true
   image:
     name: cockroachdb/cockroach:v25.2.2
+  nodes: 3
