@@ -2,6 +2,7 @@ apiVersion: crdb.cockroachlabs.com/v1alpha1
 kind: CrdbCluster
 metadata:
   name: cockroachdb
+  namespace: cockroach-cluster
 spec:
   dataStore:
     pvc:
